@@ -100,7 +100,7 @@
 import navbar from './Navbar'
 
 export default {
-  name: 'header',
+  name: 'Header',
   components: {
     navbar
 
@@ -125,6 +125,7 @@ export default {
     },
     sidebarMinimize (e) {
       e.preventDefault()
+
 
       document.body.classList.toggle('sidebar-minimized')
     },
