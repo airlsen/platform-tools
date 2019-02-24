@@ -1,5 +1,5 @@
 <template>
-  <ol class="breadcrumb" style="margin-bottom: 0rem">
+  <ol class="breadcrumb" style="margin-bottom: 0rem;padding: 6px 15px;">
     <li class="breadcrumb-item" v-for="(item, index) in list">
       <span class="active" v-if="isLast(index)">{{ showName(item) }}</span>
       <router-link :to="item.path" v-else-if="item.path!==''">{{ showName(item) }}</router-link>

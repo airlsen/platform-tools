@@ -98,11 +98,11 @@
 <style>
     .tags {
         position: relative;
-        height: 37px;
+        height: 35px;
         overflow: hidden;
         background: #fff;
-        padding-right: 120px;
-        margin-bottom: 1.0rem;
+        /*padding-right: 120px;*/
+        /*margin-bottom: 1.0rem;*/
     }
 
     .tags ul {
