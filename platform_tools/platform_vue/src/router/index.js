@@ -56,6 +56,22 @@ export const asyncRouterMap = [
     },
 
     {
+        path: '/tools',
+        redirect: '/tools',
+        name: '测试工具',
+        component: Full,
+        hidden:false,
+        children: [
+            {path: '/tools', name: '网络爬虫', icon: 'android-list',
+                component: {render (c) { return c('router-view') }},
+                children: [
+                    {path: 'SinglePageCrawler', name: '单页爬虫', icon: 'ios-checkmark-outline', component: _import('tools/reptile/SinglePageCrawler')},
+                ]
+            },
+        ]
+    },
+
+    {
         path: '/project',
         redirect: '/project',
         name: '项目管理',
@@ -135,7 +151,7 @@ export const asyncRouterMap = [
          // {path: '/home1/dashboard',name: 'Dashboard2',icon:'speedometer',component: _import('Dashboard2')},
          // {path: '/home1/introduction',name: '介绍2',icon:'thumbsup',component: _import('Introduction')},
 
-    
+
     ]
   },
 

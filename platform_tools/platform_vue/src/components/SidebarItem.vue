@@ -67,10 +67,10 @@
         /*background: 0 0;*/
     }
 
-    .navbar .sidebar .nav .nav-item .active.dropdown-toggle, .sidebar .nav .nav-item .nav-link.active, .sidebar .nav .nav-item .navbar .active.dropdown-toggle {
-        color: #fff;
-        background: #24ccb4 !important;;
-    }
+    /*.navbar .sidebar .nav .nav-item .active.dropdown-toggle, .sidebar .nav .nav-item .nav-link.active, .sidebar .nav .nav-item .navbar .active.dropdown-toggle {*/
+        /*color: #fff;*/
+        /*background: #00af96  !important;;*/
+    /*}*/
 
 
 </style>

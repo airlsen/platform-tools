@@ -2,7 +2,7 @@
   <navbar>
     <button class="navbar-toggler mobile-sidebar-toggler d-lg-none" type="button" @click="mobileSidebarToggle">&#9776;</button>
       <a href="#" class="img"><img src="static/img/boss/logo.jpg" height="50"
-                                   class="radius-circle rotate-hover" alt="">测试平台开发</a>
+                                   class="radius-circle rotate-hover" alt="">测试开发平台</a>
     <ul class="nav navbar-nav d-md-down-none">
       <li class="nav-item">
         <a class="nav-link navbar-toggler sidebar-toggler"  @click="sidebarMinimize">&#9776;</a>
@@ -11,19 +11,19 @@
 
     <ul class="nav navbar-nav d-md-down-none">
         <li class="nav-item header-item">
-            <router-link tag="div" to='/home'  style="height:55px;" class="nav-link">
+            <router-link tag="div" to='/home'  style="height:55px;border-radius: 2px;" class="nav-link">
                 <p><Icon type="home" size='30' color="#2d8cf0"></Icon></p>
                 <p class="header-word"> 首页 </p>
             </router-link>
         </li>
         <li class="nav-item header-item">
-            <router-link tag="div" to='/project'  style="height:55px;" class="nav-link">
+            <router-link tag="div" to='/project'  style="height:55px;border-radius: 2px;" class="nav-link">
                 <p><Icon type="compose" size='30' color="#2d8cf0"></Icon></p>
                 <p class="header-word"> 接口测试 </p>
             </router-link>
         </li>
         <li class="nav-item header-item">
-            <router-link tag="div" to='/env'  style="height:55px;" class="nav-link">
+            <router-link tag="div" to='/env'  style="height:55px;border-radius: 2px;" class="nav-link">
                 <p><Icon type="gear-b" size='30' color="#2d8cf0"></Icon></p>
                 <p class="header-word"> 环境配置 </p>
             </router-link>
@@ -43,7 +43,7 @@
     <!--</Dropdown>-->
       <!--</li>-->
         <li class="nav-item header-item">
-            <router-link tag="div" to='/tools'  style="height:55px;" class="nav-link">
+            <router-link tag="div" to='/tools'  style="height:55px;border-radius: 2px;" class="nav-link">
                 <p><Icon type="wrench" size='30' color="#2d8cf0"></Icon></p>
                 <p class="header-word" > 测试工具 </p>
             </router-link>
@@ -175,11 +175,10 @@ export default {
     }
 
     .open{
-        background-color: #24ccb4 !important;
+        background-color: #20a8d8   !important;
     }
   .app-header.navbar {
       background-color: #303133;
-
   }
 
 </style>
