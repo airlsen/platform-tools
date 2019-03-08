@@ -4,7 +4,7 @@
             <Col :xs="24" :sm="24"   :md="24" :lg="24">
                 <div class="state-overview" >
                     <Col span="6">
-                        <div class="panel purple" style="margin-right: 10px;">
+                        <div class="panel purple" style="margin-right: 10px;background-color: #398BF7;box-shadow: 0 5px 0 #1e6bd2;">
                             <div class="symbol">
                                 <Icon type="clipboard" size="50" color="white"></Icon>
 
@@ -20,7 +20,7 @@
                         </div>
                     </Col>
                     <Col span="6">
-                        <div  class="panel red" style="margin-right: 10px;">
+                        <div  class="panel red" style="margin-right: 10px;background-color: #745AF2;box-shadow: 0 5px 0 #5c41e6;">
                             <div class="symbol">
                                 <Icon type="pricetags" size="50" color="white"></Icon>
                             </div>
@@ -38,7 +38,7 @@
                 </div>
                 <div  class="state-overview">
                     <Col span="6" >
-                        <div class="panel blue" style="margin-right: 10px;">
+                        <div class="panel blue" style="margin-right: 10px;background-color: #06D79C;box-shadow: 0 5px 0 #06bf8b;">
                             <div class="symbol">
                                 <Icon type="ios-bookmarks" size="50" color="white"></Icon>
 
@@ -55,7 +55,7 @@
 
                     </Col>
                     <Col span="6" >
-                        <div class="panel green" >
+                        <div class="panel green" style="background-color: #f39c12;box-shadow: 0 5px 0 #de8d0e;">
                             <div class="symbol">
                                 <Icon type="ios-book" size="50" color="white"></Icon>
 
